@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Número secreto</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>   
+        <header class="header-logo">
+            <img src="img/logo.png" alt="logo" class="logo">
+        </header>
+     
+        <div class="container">
+            <h2 class="title">Vamos lá, me diz o seu palpite!</h2>
+            <p>O número secreto está entre <span id="min-value">0</span> e <span id="max-value">100</span></p>
+            <div id="guess" class="mensagem">
+                <p>Para encerrar basta dizer</br> <span>" TERMINAR JOGO "</span></p>
+            </div>
+        </div> 
+        <div class="footer">
+            <div class="footer-links">
+              <a href="https://github.com/Rudneyalmeida"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/rudneyalmeida/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="footer-copyright">
+              Desenvolvido por Rudney Almeida <i class="fa-solid fa-code"></i> 
+            </div>
+        </div>
+        <script src="app/raffleNumber.js"></script>
+        <script src="app/voiceRecognition.js"></script>
+        <script src="app/validation.js"></script>
+    </body>
+</html>

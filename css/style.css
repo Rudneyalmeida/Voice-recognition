@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --primary-color: #EEE9DA;
+    --secondary-color: #030000;
+    --bg-color: radial-gradient(farthest-corner at  top,#cff7bc, #37054e);
+
+}
+html,body {
+    height: 100%;
+    
+}
+body {
+    background: var(--bg-color);
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    width: 350px;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 200;
+    margin: 0;
+    text-shadow: 3px 3px 4px   rgba(39, 39, 39, 0.5);
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 200;
+    margin: 0;
+    padding: 20px 0;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.mensagem {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-top: 40px;
+}
+.box {
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em ;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.btn-play {
+    margin-top: 28px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(190, 169, 169, 0.5);
+    border: 0;
+    transition: 0.5s;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-play:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 0;
+    cursor: pointer;
+}
+
+span {
+    font-weight: 700;
+    text-shadow: 1px 1px 4px  rgba(8, 8, 8, 0.5);
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 2em;
+    margin: 0;
+    text-shadow: 1px 1px 4px  rgba(8, 8, 8, 0.5);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: #cd878736;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 100%;
+  color: #faf9f98f;
+  margin-top: 20px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #ffefefef;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 15;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+  
+@media screen and (max-width: 840px) {
+   
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    .box {
+        font-size: 2em;
+    }
+    .btn-play {
+        font-size: 14px;
+    }
+    .mensagem {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1em;
+        line-height: 1.5em;
+
+    }
+    .footer-links a {
+        color: #ffefefef;
+        opacity: 0.2;
+        text-decoration: none;
+        font-size: 24px;
+        padding: 0px 10px;
+      }
+    .footer-copyright{
+        font-size: 12px;}
+}
