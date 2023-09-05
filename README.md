@@ -1,27 +1,49 @@
-# Code Features
-Technologies Used: The project was developed using the following technologies:
+Readme - Voice Recognition Number Guessing Game
+This repository contains a random number guessing game that utilizes voice recognition, implemented in JavaScript, HTML, and CSS. The game incorporates a speech recognition API to create a unique interactive experience.
 
-HTML5: for structuring the website's content.
-CSS3: for styling and layout design.
-JavaScript: for implementing interactive functionalities.
-Customized Website: The main goal of this code is to create a website that is entirely customized, meeting specific client needs, and highlighting the brand's identity.
+Online Demo
+You can try out the game online by clicking here.
 
-Responsiveness: The website layout is designed to be responsive, ensuring that it adapts perfectly to different devices and screen sizes, such as desktops, tablets, and smartphones.
+Features
+Random Number Guessing: The game generates a random number within a defined range and challenges the player to guess that number.
 
-Enhanced User Experience: Emphasis was given to creating a pleasant and intuitive user experience, providing smooth navigation and easy access to information.
+Voice Recognition: Instead of typing their guess, players can use voice recognition to make their guesses. This makes the game more engaging and accessible.
 
-API Integration: If needed, the code can be integrated with external APIs to provide additional features and enhance website functionality.
+Visual Feedback: The game provides instant visual feedback on whether the player's guess is correct or not. It also keeps a record of previous attempts.
 
-How to Use
-Clone the repository to your local machine.
-Open the index.html file in a web browser to view the website.
-Explore the pages and functionalities to check out the customization and interactivity.
-Alternatively, you can access the website through the following link: https://voice-recognition-ldm4.vercel.app/
+Technologies Used
+JavaScript: The game is primarily developed in JavaScript for the game logic and integration with the speech recognition API.
 
-Contribution
-Contributions are welcome! If you encounter any issues, have improvement ideas, or wish to add new features, feel free to create a pull request.
+HTML: The basic web page structure is built in HTML for displaying the game and user interface elements.
 
-Contact
-If you need further information or have any questions, you can reach out via email at rudney.a.s@hotmail.com.
+CSS: The visual style of the game is defined in CSS to create an appealing and responsive experience.
 
-We hope this code proves useful for developing customized websites and providing an excellent user experience. Enjoy!
+Speech Recognition API: The game makes use of a speech recognition API to capture player voice inputs.
+
+How to Run Locally
+To run this game on your local machine, follow these steps:
+
+Clone this repository to your computer:
+
+bash
+Copy code
+git clone https://github.com/rudneyalmeida/voice-recognition.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd voice-recognition
+Open the index.html file in your web browser.
+
+Enjoy playing the voice recognition number guessing game!
+
+Contributions
+Contributions to improve this project are welcome! If you want to add features, fix bugs, or enhance the user interface, feel free to create a pull request.
+
+Author
+This game was created by Rudney Almeida.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Have fun playing this voice recognition number guessing game! If you have any questions or encounter issues, don't hesitate to reach out to the author or open an issue in this repository.
