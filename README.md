@@ -1,4 +1,4 @@
-Readme - Voice Recognition Number Guessing Game
+#Voice Recognition Number Guessing Game
 This repository contains a random number guessing game that utilizes voice recognition, implemented in JavaScript, HTML, and CSS. The game incorporates a speech recognition API to create a unique interactive experience.
 
 Online Demo
